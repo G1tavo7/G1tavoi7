@@ -23,33 +23,31 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- 
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Have an azure subscription
+- create a VM and resource group in Azure
+- Have remote desktop installed and have the creditials needed to login 
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="[https://i.imgur.com/DJmEXEB.png](https://i.imgur.com/f68vXBL.png)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1HjmbYW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This is the page that should load once you have installed IIS so you can run the osticketing systemto install you would need to go to control panel, then go to programs, windows features, and from there you would look for the IIS(Internet information services) file and have it checked off.  
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BinQndr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This is the osticketing system where I did the practice lab. In order to get to this page and have your osticketing system ready to go you would have need to install a couple things. PHP Manager, Rewrite Module,VC REDIST, MySQL. You can see some things have the red X's on them, just go the IIS, then PHP Manager and you will see disable/enable extensions. Just go down the list and chose which ones you ant and don't want.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Cv68Xm6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+So what you see on the right side is me setting up the OSticketing asking for email,first and last name, setting a password, and then at the bottom you see it asking about SQL database. For this you will have to dowload hediSQL, which is what you see on the left side. I created a data base called osticketing and then downloaded that file in the osticketing to use .
 </p>
